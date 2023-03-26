@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial;
+padding: 10px;
+background: #CBC3E3;
+}
+
+/* Header/Blog Title */
+.header {
+padding: 30px;
+text-align: center;
+background: #C19A6B;
+}
+
+.header h1 {
+font-size: 50px;
+color: #6F4E37;
+}
+
+/* Style the top navigation bar */
+.topnav {
+overflow: hidden;
+background-color: #6F4E37;
+}
+
+/* Style the topnav links */
+.topnav a {
+float: left;
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+background-color: #E6E6FA;
+color: #CBC3E3;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+float: left;
+width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+float: left;
+width: 25%;
+background-color: #CBC3E3;
+padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+background-color: #C19A6B;
+width: 100%;
+padding:20px;
+}
+
+/* Add a card effect for articles */
+.card {
+background-color: #E6E6FA;
+padding: 20px;
+margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Footer */
+.footer {
+padding: 20px;
+text-align: center;
+background: #C19A6B;
+margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {
+width: 100%;
+padding: 0;
+}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+.topnav a {
+float: none;
+width: 100%;
+}
+}
+</style>
+</head>
+<body link="black" vlink="black">
+ <meta charset="UTF-8">
+  <meta name="description" content="Favourites">
+  <meta name="keywords" content="nmixx, straykids, tulips, paintings">
+  <meta name="author" content="Abegail Ann Cruz">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="indexx.css">
+<body>
+
+<div class="header">
+<h1>abegail ann</h1>
+<p>ksm & kjw</p>
+</div>
+
+<div class="topnav">
+<a href="aresume.html">resume</a>
+<a href="a.online selling.html">shop</a>
+<a href="aresume.html" style="float:right">contact</a>
+</div>
+
+<div class="row">
+<div class="leftcolumn">
+<div class="card">
+<h2>Art In Island</h2>
+<h5>February 14, 2023</h5>
+<div class="fakeimg"><img src="paintings.jpg" style="height: 180px;" alt="Me" class="responsive"></div>
+<p>I have always adored the beauty of paintings. I started painting classes during my elementary days but unfortunately I wasn't able to continue anymore due to unexpected reasons. Now, I'm trying to start again by myself because I feel calm whenever I start stroking the brushes with paints in it.</p>
+</div>
+
+<div class="card">
+<h2>Dragonfly Café</h2>
+<h5>September 09, 2022</h5>
+<div class="fakeimg"><img src="tulips.jpg" style="height: 170px;" alt="Me" class="responsive"></div>
+<p>Tulips are my favorite flowers may it be red, pink, yellow, white, and more.</p>
+</div>
+
+<div class="card">
+<h2>Dragonfly Café</h2>
+<h5>September 22, 2022</h5>
+<div class="fakeimg"><img src="purple.jpg" style="height: 170px;" alt="Me" class="responsive"></div>
+<p>The shade of purple is my favorite colour.</p>
+</div>
+
+<div class="card">
+<h2>Dragonfly Café</h2>
+<h5>October 25, 2022</h5>
+<div class="fakeimg"><img src="babies.jpg" style="height: 170px;" alt="Me" class="responsive"></div>
+<p>With the little cousins-Shan and Sam.</p>
+</div>
+
+</div>
+<div class="rightcolumn">
+<div class="card">
+<h2>About Me</h2>
+<div class="fakeimg"><img src="mee.jpg" style="height: 200px; width:225px;" alt="Me" class="responsive"></div>
+<p>A grade 10 student from University of Cebu Lapu-Lapu and Mandaue.</p>
+</div>
+<div class="card">
+<h3>Popular Post</h3>
+<div class="fakeimg"><img src="nmixxx.jpg" style="height: 150px; width: 225px;" alt="Me" class="responsive"><p>I stan a girl group named "NMIXX". Nmixx is a South Korean girl group fpormed by SQU4D, a sub label of JYP Entertainment. The group is composed of six member: Lily, Haewon, Sullyoon, Bae, Jiwoo, Kyujin.</p></div>
+<div class="fakeimg"><img src="good.jpg" style="height: 150px; width: 225px;" alt="Me" class="responsive"><p>The dawn before sunrise is darker than anything. But never forget the stars you hope for only appear in the dark.</p></div>
+<div class="fakeimg"><img src="skz.jpg" style="height: 150px; width:225px;" alt="Me" class="responsive"><p>I also stan a boy group named "Straykids". Straykids is a South Korean boy band formed by JYP Entertainment through the 2017 Reality Show of the same name. The group is composed of eight members: Bang Chan, Lee Know, Changbin, Hyunjin, Han, Felix, Seungmin, Jeongin.</p></div>
+</div>
+<div class="card">
+<h3>Follow Me On:</h3>
+<p><a href="https://www.instagram.com/hasnuhi_/?igshid=ZDdkNTZiNTM%3D">Instagram</a></p>
+<p><a href="https://twitter.com/jinsuwoz?t=W1aLmz2mjj3u8-mvvzfoPA&s=07">Twitter</a></p>
+<p><a href="https://www.youtube.com/@slaadey">Youtube</a></p>
+
+<div class="footer"><a href="#">Terms & Privacy</a>&nbsp&nbsp&nbsp&nbsp<a href="#">Help</a></p>
+<b>©2023 Copyright<b>
+</div>
+
+</body>
+</html>
